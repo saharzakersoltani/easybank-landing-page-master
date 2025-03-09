@@ -1,0 +1,116 @@
+/* 
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+------------------------------------------------------------
+## Colors
+
+### Primary
+
+- Dark Blue: hsl(233, 26%, 24%)
+- Lime Green: hsl(136, 65%, 51%)
+- Bright Cyan: hsl(192, 70%, 51%)
+
+### Neutral
+
+- Grayish Blue: hsl(233, 8%, 62%)
+- Light Grayish Blue: hsl(220, 16%, 96%)
+- Very Light Gray: hsl(0, 0%, 98%)
+- White: hsl(0, 0%, 100%)
+-------------------------------------------------------------
+## Typography
+
+### Body Copy
+
+- Font size: 18px
+
+### Font
+
+- Family: [Public Sans](https://fonts.google.com/specimen/Public+Sans)
+- Weights: 300, 400, 700
+
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 
+
+- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 /96 / 128
+---------------------------------------------------------------
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  font-size: 1.8rem;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  color: hsl(233, 8%, 62%);
+  line-height: 1.5;
+}
+
+.container {
+  width: 120rem;
+  margin: 0 auto;
+  /* margin-bottom: 9.6rem; */
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--2-cols {
+  grid-template-columns: 1fr 1fr;
+  column-gap: 27.4rem;
+  align-items: center;
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 5.2rem;
+}
+
+/* BTN */
+.request-btn:link,
+.request-btn:visited {
+  text-decoration: none;
+  text-transform: capitalize;
+  text-align: center;
+  background-image: linear-gradient(
+    to right,
+    hsl(136, 65%, 51%),
+    hsl(192, 70%, 51%)
+  );
+  padding: 1.2rem 3.2rem;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 700;
+  justify-self: end;
+  transition: all 0.3s;
+}
+
+.request-btn:hover,
+.request-btn:active {
+  filter: opacity(65%);
+}

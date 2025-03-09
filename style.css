@@ -1,0 +1,245 @@
+/********************/
+/*HEADER SECTION*/
+/*******************/
+.header-section {
+  background-color: hsl(0, 0%, 100%);
+  padding: 2.4rem 0;
+  text-align: center;
+}
+
+.header-navs {
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+}
+
+.header-nav:link,
+.header-nav:visited {
+  text-decoration: none;
+  color: hsl(233, 8%, 62%);
+  text-transform: capitalize;
+  font-weight: 400;
+  transition: color 0.3s;
+}
+
+.header-nav:hover,
+.header-nav:active {
+  cursor: pointer;
+  color: hsl(233, 26%, 24%);
+  padding-bottom: 3.6rem;
+  border-bottom: 5px solid;
+  border-image: linear-gradient(
+      to right,
+      hsl(136, 65%, 51%),
+      hsl(192, 70%, 51%)
+    )
+    2;
+}
+
+/********************/
+/*NEXT GENERATION SECTION*/
+/*******************/
+.section-next {
+  background-color: hsl(0, 0%, 98%);
+  padding: 8rem 0;
+}
+
+.next-left {
+  align-self: center;
+}
+
+.heading-first {
+  color: hsl(233, 26%, 24%);
+  font-weight: 300;
+  font-size: 6.2rem;
+  letter-spacing: -1px;
+  margin-bottom: 3.2rem;
+}
+
+.next-par {
+  margin-bottom: 4.8rem;
+}
+
+.next-right {
+  justify-self: end;
+}
+
+.mokups-img {
+  width: 90%;
+  text-align: end;
+  transform: translate(5rem, 2rem);
+}
+/********************/
+/*WHY CHOOSE EASYBANK SECTION/
+/*******************/
+.section-why {
+  background-color: hsl(220, 16%, 96%);
+  padding: 9.6rem;
+}
+
+.heading-second {
+  color: hsl(233, 26%, 24%);
+  font-weight: 300;
+  font-size: 4.4rem;
+  letter-spacing: -1px;
+  margin-bottom: 2.4rem;
+}
+
+.header-par {
+  margin-bottom: 6.4rem;
+}
+
+.why-par {
+  font-size: 1.6rem;
+}
+
+.heading-third {
+  color: hsl(233, 26%, 24%);
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin-top: 3.2rem;
+  margin-bottom: 2.4rem;
+}
+
+/********************/
+/*LATEST ARTICLES SECTION/
+/*******************/
+.section-latest-article {
+  background-color: hsl(0, 0%, 98%);
+  padding: 9.6rem 0;
+}
+
+.latest {
+  margin-bottom: 4.8rem;
+}
+
+.latest-card {
+  border-radius: 11px;
+  box-shadow: 0 0 7px 2.75px rgba(0, 0, 0, 0.034);
+  transition: all 0.3s;
+  overflow: hidden;
+}
+
+.latest-card:hover {
+  transform: translate(0, 1.6rem);
+}
+
+.latest-img {
+  width: 100%;
+  height: 40%;
+  /* border-radius: 11px; */
+}
+
+.latest-des {
+  padding: 3.2rem;
+}
+
+.latest-author {
+  font-size: 1.6rem;
+}
+
+.latest-header:link,
+.latest-header:visited {
+  color: hsl(233, 26%, 24%);
+  text-decoration: none;
+  display: block;
+  margin: 0.8rem 0;
+}
+
+.latest-header:hover,
+.latest-header:active {
+  color: hsl(170, 95%, 40%);
+}
+
+.latest-par {
+  font-size: 1.6rem;
+}
+
+/********************/
+/*FOOTER SECTION/
+/*******************/
+.section-footer {
+  background-color: hsl(233, 26%, 24%);
+  padding: 6.4rem 0 2.4rem 0;
+  font-size: 1.6rem;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 0.3fr 0.2fr 0.2fr 0.3fr;
+}
+
+.footer-left {
+  display: grid;
+  row-gap: 4.8rem;
+}
+
+.footer-logos {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.footer-logo {
+  list-style: none;
+  display: flex;
+  display: block;
+  gap: 1.6rem;
+}
+
+.footer-logo--link:link,
+.footer-logo--link:visited {
+  color: #fff;
+  font-size: 2.4rem;
+  transition: color 0.3s;
+}
+
+.footer-logo--link:hover,
+.footer-logo--link:active {
+  color: hsl(170, 95%, 40%);
+  cursor: pointer;
+}
+
+.footer-link-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  list-style: none;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: hsl(170, 95%, 40%);
+  cursor: pointer;
+}
+
+.request-btn--footer {
+  display: block;
+  margin-bottom: 3.2rem;
+}
+
+.copy {
+  text-align: end;
+}
+
+.attribution {
+  text-align: center;
+  margin-top: 8rem;
+}
+
+.attribution-link:link,
+.attribution-link:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+.attribution-link:hover,
+.attribution-link:active {
+  color: hsl(170, 95%, 40%);
+}
