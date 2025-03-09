@@ -2,18 +2,6 @@
 
 Welcome to the EasyBank Landing Page project! This is a front-end development project aimed at creating a sleek and modern landing page for a fictional bank called EasyBank. The design was inspired by a challenge from [Frontend Mentor](https://www.frontendmentor.io/), and the goal is to practice and showcase front-end development skills.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Future Improvements](#future-improvements)
-- [Contributing](#contributing)
-- [License](#license)
-
-
 
 ## Overview
 
